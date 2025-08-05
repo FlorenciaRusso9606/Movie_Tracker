@@ -30,7 +30,7 @@ export default function MovieForm({
   handleSubmit,
   formState: { errors, isSubmitting },
   reset,
-  control, // Añadimos control para manejar mejor los valores
+  control,
   setValue,
   getValues,
   watch
@@ -47,7 +47,7 @@ export default function MovieForm({
     review: '',
     image_url: '',
   },
-  shouldUnregister: false // Mantener los valores al desmontar
+  shouldUnregister: false 
 });
 
 // Efecto para sincronizar initialData con el formulario

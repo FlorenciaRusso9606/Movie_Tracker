@@ -172,12 +172,12 @@ if (isLoading) {
                   <FormButton
                     
                     onClick={() => handleEditClick(movie)}
-                    className="bg-gradient-to-r from-green-700 to-green-800 text-white rounded-lg hover:from-violet-800 hover:to-blue-900 cursor-pointer px-4 py-2"
+                    className="bg-gradient-to-r from-green-500 to-green-700 p-2 text-white rounded-lg hover:from-green-600 hover:to-green-800 cursor-pointer px-4 py-2"
                   >Editar</FormButton>
                   <FormButton
                    
                     onClick={() => handleDelete(movie.idMovie)}
-                    className="bg-gradient-to-r from-red-600 to-red-900 text-white rounded-lg hover:from-red-700 hover:to-red-950 cursor-pointer"
+                    className="bg-gradient-to-r from-red-500 to-red-700 text-white rounded-lg hover:from-red-600 hover:to-red-800 cursor-pointer"
                   >  Eliminar </FormButton>
                 </div>
               </div>

@@ -33,7 +33,6 @@ const LoginForm = () => {
       const { token, user } = res.data;
       
       if (token && user) {
-        // Asegúrate que user contiene idUser
         login({
           idUser: user.idUser,
           name: user.name,

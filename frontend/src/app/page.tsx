@@ -23,7 +23,7 @@ export default function HomePage() {
             <p className="text-lg">Hola, {user.name}</p>
             <button
               onClick={logout}
-              className="mt-4 bg-gradient-to-r from-red-600 to-red-900 text-white rounded-lg hover:from-red-700 hover:to-red-950 cursor-pointer"
+              className="mt-4 bg-gradient-to-r p-2 from-red-600 to-red-700 text-white rounded-lg hover:from-red-700 hover:to-red-800 cursor-pointer"
             >
               Cerrar sesión
             </button>
@@ -34,7 +34,7 @@ export default function HomePage() {
             <div className="flex justify-center gap-4">
               <Link
                 href="/login"
-                className="bg-gradient-to-r from-violet-700 to-blue-800 text-white rounded-lg text-white px-4 py-2 hover:from-violet-800 hover:to-blue-900 transition"
+                className="bg-gradient-to-r from-violet-700 to-blue-800 rounded-lg text-white px-4 py-2 hover:from-violet-800 hover:to-blue-900 transition p-2"
               >
                 Iniciar sesión
               </Link>
